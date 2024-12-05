@@ -382,6 +382,7 @@
     text-wrap: inherit;
 }
 
+
 .about1 {
     height: auto;
     background: rgb(207, 228, 248);
@@ -420,9 +421,21 @@
     /* border: 1px solid black; */
 }
 
+.btnabout {
+    width: 150px;
+}
+
 @media (max-width:680px) {
+    .about4 {
+        margin-top: -100px;
+        height: 300px;
+        width: 300px;
+    }
     .about3 {
-        margin-left: -90px;
+        margin-left: -50px;
+    }
+    .btnabout {
+        width: 150px;
     }
 }
 
